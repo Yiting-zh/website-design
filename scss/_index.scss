@@ -11,20 +11,17 @@ main {
   height: auto;
 }
 
-.hero {
+.hero, .section, .section1, .section2, .section3 {
   position: relative;
   width: 100%;
 }
 
-.section {
-  position: relative;
-  width: 100%;
-}
+
 
 .background-img {
   width: 100%;
   height: auto; 
-  display: block;
+  display: block; 
 }
 
 .content {

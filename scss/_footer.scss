@@ -1,0 +1,10 @@
+@use 'styles' as *;
+
+footer {
+  background-color: #232323;
+}
+
+footer ul{
+  list-style: none;
+  display: flex;
+}

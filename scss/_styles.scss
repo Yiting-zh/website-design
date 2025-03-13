@@ -1,5 +1,3 @@
-@import  'footer' ;  
-
 
 $font-sans: "Josefin Sans", sans-serif;
 $font-serif: "Aleo", serif;
@@ -35,6 +33,7 @@ h1 {
   color: $bg-color;
   letter-spacing: 4.8px;
   font-weight: bold;
+  text-transform: uppercase;
 }
  
 h2 {

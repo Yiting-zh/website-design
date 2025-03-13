@@ -1,5 +1,4 @@
 @use 'styles' as *;
-@use 'components' as *;
 
 .nav-bar{
   width: 100vw;
@@ -29,3 +28,5 @@ a{
   font-size: $font-size-xxs;
   text-transform: uppercase;
 }
+
+

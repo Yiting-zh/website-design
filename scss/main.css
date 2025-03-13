@@ -8,6 +8,7 @@ h1 {
   color: white;
   letter-spacing: 4.8px;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -32,6 +33,7 @@ p {
 .button-search {
   display: inline-block;
   padding: 21px 19px 37px 15px;
+  background-color: #496BFE;
   color: white;
   font-size: 14px;
   font-family: "Aleo", serif;
@@ -41,7 +43,7 @@ p {
   text-transform: uppercase;
 }
 
-.button {
+button {
   display: inline-block;
   padding: 21px 34px 16px 64px;
   color: white;
@@ -64,12 +66,7 @@ main {
   height: auto;
 }
 
-.hero {
-  position: relative;
-  width: 100%;
-}
-
-.section {
+.hero, .section, .section1, .section2, .section3 {
   position: relative;
   width: 100%;
 }
@@ -97,6 +94,15 @@ main {
 }
 
 .steps {
+  display: flex;
+}
+
+footer {
+  background-color: #232323;
+}
+
+footer ul {
+  list-style: none;
   display: flex;
 }
 
