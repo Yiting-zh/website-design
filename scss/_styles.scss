@@ -1,0 +1,75 @@
+$font-sans: "Josefin Sans", sans-serif;
+$font-serif: "Aleo", serif;
+
+$font-size-l: 48px;
+$font-size-m: 36px;
+$font-size-s: 22px;
+$font-size-xs: 16px;
+$font-size-xxs: 14px;
+
+$primary-color: #496BFE;
+$text-color: #E8E8E8; 
+$bg-color:white;
+
+
+$spacing-l: 46px;
+$spacing-m: 23px;
+$spacing-s: 13px;
+
+
+$line-height-s: 26px;
+
+$padding:32px;
+
+
+h1 {
+  font-family: $font-sans;
+  font-size: $spacing-l;  
+  color: $bg-color;
+  letter-spacing: 4.8px;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: $font-serif;
+  font-size: $font-size-m;
+  color: $bg-color;
+}
+
+h3{
+  font-family: $font-sans;
+  font-size: 20px;
+  color: $bg-color;
+}
+
+p{
+  font-family: $font-sans;
+  font-size: $font-size-xs;
+  color: $text-color;
+  letter-spacing: 1.6px;
+}
+
+
+.buttom-search {
+  display: inline-block;
+  padding: 21px 19px 37px 15px;
+  color: $bg-color;
+  font-size: $font-size-xxs;
+  font-family: $font-serif;
+  letter-spacing: 1.4px;
+  border: none;
+  white-space: nowrap;
+}
+
+.button {
+  display: inline-block;
+  padding: 21px 34px 16px 64px;
+  color: $bg-color;
+  font-size: $font-size-xs;
+  font-family: $font-serif;
+  letter-spacing: 1.2px;
+  border: none;
+  white-space: nowrap;
+  background: linear-gradient(120deg, #5474FD 70%, rgba(255, 255, 255, 0.2) 30%);
+}
+
