@@ -25,7 +25,7 @@ p {
   letter-spacing: 1.6px;
 }
 
-.buttom-search {
+.button-search {
   display: inline-block;
   padding: 21px 19px 37px 15px;
   color: white;
@@ -48,7 +48,49 @@ p {
   background: linear-gradient(120deg, #5474FD 70%, rgba(255, 255, 255, 0.2) 30%);
 }
 
-.buttom-search {
+body {
+  padding: 13px 15px 14px 14px;
+}
+
+.header {
+  background-image: url("images/Group 1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 46px;
+  color: white;
+  letter-spacing: 4.8px;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Aleo", serif;
+  font-size: 36px;
+  color: white;
+}
+
+h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  color: #E8E8E8;
+  letter-spacing: 1.6px;
+}
+
+.button-search {
   display: inline-block;
   padding: 21px 19px 37px 15px;
   color: white;
@@ -69,6 +111,33 @@ p {
   border: none;
   white-space: nowrap;
   background: linear-gradient(120deg, #5474FD 70%, rgba(255, 255, 255, 0.2) 30%);
+}
+
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 46px;
+  color: white;
+  letter-spacing: 4.8px;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Aleo", serif;
+  font-size: 36px;
+  color: white;
+}
+
+h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  color: #E8E8E8;
+  letter-spacing: 1.6px;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,6 +1,6 @@
 @use 'styles' as *;
 
-.buttom-search {
+.button-search {
   display: inline-block;
   padding: 21px 19px 37px 15px;
   color: $bg-color;
@@ -9,6 +9,7 @@
   letter-spacing: 1.4px;
   border: none;
   white-space: nowrap;
+  text-transform: uppercase;
 }
 
 .button {
@@ -21,4 +22,5 @@
   border: none;
   white-space: nowrap;
   background: linear-gradient(120deg, #5474FD 70%, rgba(255, 255, 255, 0.2) 30%);
+  text-transform: uppercase;
 }

@@ -1,0 +1,52 @@
+@use 'components' as *;
+
+body {
+  padding: 15px 16px 15px 12px;
+  box-sizing: border-box;
+}
+
+
+main {
+  width: 100%;
+  height: auto;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+}
+
+.section {
+  position: relative;
+  width: 100%;
+}
+
+.background-img {
+  width: 100%;
+  height: auto; 
+  display: block;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+
+
+.text {
+  display: flex;
+}
+
+
+.section0 {
+  background-color: #333333;
+}
+
+.steps {
+  display: flex;
+}
+

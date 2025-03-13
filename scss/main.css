@@ -1,3 +1,7 @@
+h1, h2, h3, p {
+  margin: 0;
+}
+
 h1 {
   font-family: "Josefin Sans", sans-serif;
   font-size: 46px;
@@ -25,7 +29,7 @@ p {
   letter-spacing: 1.6px;
 }
 
-.buttom-search {
+.button-search {
   display: inline-block;
   padding: 21px 19px 37px 15px;
   color: white;
@@ -34,6 +38,7 @@ p {
   letter-spacing: 1.4px;
   border: none;
   white-space: nowrap;
+  text-transform: uppercase;
 }
 
 .button {
@@ -46,27 +51,80 @@ p {
   border: none;
   white-space: nowrap;
   background: linear-gradient(120deg, #5474FD 70%, rgba(255, 255, 255, 0.2) 30%);
+  text-transform: uppercase;
 }
 
-.buttom-search {
-  display: inline-block;
-  padding: 21px 19px 37px 15px;
+body {
+  padding: 15px 16px 15px 12px;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  height: auto;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+}
+
+.section {
+  position: relative;
+  width: 100%;
+}
+
+.background-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.text {
+  display: flex;
+}
+
+.section0 {
+  background-color: #333333;
+}
+
+.steps {
+  display: flex;
+}
+
+.nav-bar {
+  width: 100vw;
+  height: auto;
+  background-color: #496BFE;
+}
+
+.nav-bar nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  padding-left: 321px;
+  padding-right: 321px;
+}
+
+.nav-bar nav ul {
+  list-style: none;
+  display: flex;
+  gap: 13px;
+}
+
+a {
+  text-decoration: none;
   color: white;
+  font-family: "Aleo", serif;
   font-size: 14px;
-  font-family: "Aleo", serif;
-  letter-spacing: 1.4px;
-  border: none;
-  white-space: nowrap;
-}
-
-.button {
-  display: inline-block;
-  padding: 21px 34px 16px 64px;
-  color: white;
-  font-size: 16px;
-  font-family: "Aleo", serif;
-  letter-spacing: 1.2px;
-  border: none;
-  white-space: nowrap;
-  background: linear-gradient(120deg, #5474FD 70%, rgba(255, 255, 255, 0.2) 30%);
+  text-transform: uppercase;
 }/*# sourceMappingURL=main.css.map */

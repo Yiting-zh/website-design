@@ -1,3 +1,6 @@
+@import  'footer' ;  
+
+
 $font-sans: "Josefin Sans", sans-serif;
 $font-serif: "Aleo", serif;
 
@@ -22,6 +25,10 @@ $line-height-s: 26px;
 $padding:32px;
 
 
+h1, h2, h3, p {
+  margin: 0;
+}
+
 h1 {
   font-family: $font-sans;
   font-size: $spacing-l;  
@@ -29,7 +36,7 @@ h1 {
   letter-spacing: 4.8px;
   font-weight: bold;
 }
-
+ 
 h2 {
   font-family: $font-serif;
   font-size: $font-size-m;
@@ -50,26 +57,4 @@ p{
 }
 
 
-.buttom-search {
-  display: inline-block;
-  padding: 21px 19px 37px 15px;
-  color: $bg-color;
-  font-size: $font-size-xxs;
-  font-family: $font-serif;
-  letter-spacing: 1.4px;
-  border: none;
-  white-space: nowrap;
-}
-
-.button {
-  display: inline-block;
-  padding: 21px 34px 16px 64px;
-  color: $bg-color;
-  font-size: $font-size-xs;
-  font-family: $font-serif;
-  letter-spacing: 1.2px;
-  border: none;
-  white-space: nowrap;
-  background: linear-gradient(120deg, #5474FD 70%, rgba(255, 255, 255, 0.2) 30%);
-}
 

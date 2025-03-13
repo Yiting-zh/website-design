@@ -1,0 +1,31 @@
+@use 'styles' as *;
+@use 'components' as *;
+
+.nav-bar{
+  width: 100vw;
+  height: auto;
+  background-color: $primary-color;
+}
+
+.nav-bar nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  padding-left: 321px ;
+  padding-right: 321px;
+}
+
+.nav-bar nav ul{
+  list-style: none;
+  display: flex;
+  gap: $spacing-s;
+}
+
+a{
+  text-decoration: none;
+  color: $bg-color;
+  font-family: $font-serif;
+  font-size: $font-size-xxs;
+  text-transform: uppercase;
+}
